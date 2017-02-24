@@ -1,3 +1,16 @@
-/**
- * Created by Rapolo on 2017-02-17.
- */
+/* tslint:disable:no-unused-variable */
+
+import { TestBed, async, inject } from '@angular/core/testing';
+import { CategoryService } from './category.service';
+
+describe('CategoryService', () => {
+  beforeEach(() => {
+    TestBed.configureTestingModule({
+      providers: [CategoryService]
+    });
+  });
+
+  it('should ...', inject([CategoryService], (service: CategoryService) => {
+    expect(service).toBeTruthy();
+  }));
+});

@@ -1,10 +1,10 @@
-import { ShopwebPage } from './app.po';
+import { SwedShopWebV2Page } from './app.po';
 
-describe('shopweb App', () => {
-  let page: ShopwebPage;
+describe('swed-shop-web-v2 App', function() {
+  let page: SwedShopWebV2Page;
 
   beforeEach(() => {
-    page = new ShopwebPage();
+    page = new SwedShopWebV2Page();
   });
 
   it('should display message saying app works', () => {
